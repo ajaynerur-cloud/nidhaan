@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- saffron location pin -->
+    <path
+        android:fillColor="#F28C1B"
+        android:pathData="M54,20 C49.6,20 46,23.6 46,28 C46,34 54,41 54,41 C54,41 62,34 62,28 C62,23.6 58.4,20 54,20 Z" />
+    <path
+        android:fillColor="#00695C"
+        android:pathData="M51,28 A3,3 0 1,1 57,28 A3,3 0 1,1 51,28 Z" />
+    <!-- lotus petals -->
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M54,43 C60,49 60,57 54,64 C48,57 48,49 54,43 Z" />
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M43,47 C49,50 51,57 51,64 C45,62 41,55 43,47 Z" />
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M65,47 C59,50 57,57 57,64 C63,62 67,55 65,47 Z" />
+    <!-- open box: flaps + front faces -->
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M31,66 L43,63 L52,67 L52,72 L31,70 Z" />
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M77,66 L65,63 L56,67 L56,72 L77,70 Z" />
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M31,73 L52,77 L52,88 L31,83 Z" />
+    <path
+        android:fillColor="#FFF6E6"
+        android:pathData="M77,73 L56,77 L56,88 L77,83 Z" />
+</vector>
