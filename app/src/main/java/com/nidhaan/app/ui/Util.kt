@@ -11,6 +11,7 @@ import android.net.Uri
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.location.LocationManagerCompat
+import androidx.core.os.CancellationSignal
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
@@ -38,8 +39,11 @@ fun fetchLocation(ctx: Context, onResult: (Location?) -> Unit) {
             return
         }
         LocationManagerCompat.getCurrentLocation(
-            lm, provider, null, ContextCompat.getMainExecutor(ctx)
-        ) { loc -> onResult(loc) }
+            lm,
+            provider,
+            CancellationSignal(),
+            ContextCompat.getMainExecutor(ctx)
+        ) { loc: Location? -> onResult(loc) }
     } catch (e: SecurityException) {
         onResult(null)
     }
